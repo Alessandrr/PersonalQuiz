@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		227F2BCE2A13D8AB007940AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F2BCD2A13D8AB007940AB /* AppDelegate.swift */; };
 		227F2BD02A13D8AB007940AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F2BCF2A13D8AB007940AB /* SceneDelegate.swift */; };
-		227F2BD22A13D8AB007940AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F2BD12A13D8AB007940AB /* ViewController.swift */; };
+		227F2BD22A13D8AB007940AB /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F2BD12A13D8AB007940AB /* QuestionsViewController.swift */; };
 		227F2BD52A13D8AB007940AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227F2BD32A13D8AB007940AB /* Main.storyboard */; };
 		227F2BD72A13D8AD007940AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227F2BD62A13D8AD007940AB /* Assets.xcassets */; };
 		227F2BDA2A13D8AD007940AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227F2BD82A13D8AD007940AB /* LaunchScreen.storyboard */; };
 		227F2BE62A168CE7007940AB /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F2BE52A168CE7007940AB /* Question.swift */; };
+		22D213222A1DDA5C00056A11 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D213212A1DDA5C00056A11 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		227F2BCA2A13D8AB007940AB /* PersonalQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		227F2BCD2A13D8AB007940AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		227F2BCF2A13D8AB007940AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		227F2BD12A13D8AB007940AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		227F2BD12A13D8AB007940AB /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		227F2BD42A13D8AB007940AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		227F2BD62A13D8AD007940AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		227F2BD92A13D8AD007940AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		227F2BDB2A13D8AD007940AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		227F2BE52A168CE7007940AB /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		22D213212A1DDA5C00056A11 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,8 @@
 		227F2BE22A16833F007940AB /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				227F2BD12A13D8AB007940AB /* ViewController.swift */,
+				227F2BD12A13D8AB007940AB /* QuestionsViewController.swift */,
+				22D213212A1DDA5C00056A11 /* ResultViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -173,7 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				227F2BD22A13D8AB007940AB /* ViewController.swift in Sources */,
+				22D213222A1DDA5C00056A11 /* ResultViewController.swift in Sources */,
+				227F2BD22A13D8AB007940AB /* QuestionsViewController.swift in Sources */,
 				227F2BE62A168CE7007940AB /* Question.swift in Sources */,
 				227F2BCE2A13D8AB007940AB /* AppDelegate.swift in Sources */,
 				227F2BD02A13D8AB007940AB /* SceneDelegate.swift in Sources */,
