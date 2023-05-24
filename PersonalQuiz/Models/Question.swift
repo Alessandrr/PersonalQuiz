@@ -17,7 +17,7 @@ struct Question {
                 responseType: .single,
                 answers: [
                     Answer(title: "Стейк", animal: .dog),
-                    Answer(title: "Рыбв", animal: .cat),
+                    Answer(title: "Рыба", animal: .cat),
                     Answer(title: "Морковь", animal: .rabbit),
                     Answer(title: "Кукуруза", animal: .turtle),
                 ]

@@ -119,6 +119,9 @@
                                         <rect key="frame" x="0.0" y="82.5" width="288" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="rangedAnswerButtonPressed" destination="CYc-WW-ian" eventType="touchUpInside" id="zrK-cn-Cv6"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -126,27 +129,39 @@
                                 <rect key="frame" x="0.0" y="92.5" width="320" height="4"/>
                             </progressView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="vpQ-gx-nlZ">
-                                <rect key="frame" x="122.5" y="191" width="75" height="186"/>
+                                <rect key="frame" x="111.5" y="191" width="97.5" height="186"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ynN-dL-ptV">
-                                        <rect key="frame" x="0.0" y="0.0" width="75" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="97.5" height="34.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Ответить"/>
+                                        <connections>
+                                            <action selector="singleAnswerButtonPressed:" destination="CYc-WW-ian" eventType="touchUpInside" id="ck5-p3-Y7J"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xnx-o7-kCQ">
-                                        <rect key="frame" x="0.0" y="50.5" width="75" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="50.5" width="97.5" height="34.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Ответить"/>
+                                        <connections>
+                                            <action selector="singleAnswerButtonPressed:" destination="CYc-WW-ian" eventType="touchUpInside" id="pgH-LW-gia"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJl-KU-O4b">
-                                        <rect key="frame" x="0.0" y="101" width="75" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="101" width="97.5" height="34.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Ответить"/>
+                                        <connections>
+                                            <action selector="singleAnswerButtonPressed:" destination="CYc-WW-ian" eventType="touchUpInside" id="zaV-75-EOd"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ct-fG-wwI">
-                                        <rect key="frame" x="0.0" y="151.5" width="75" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="151.5" width="97.5" height="34.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Ответить"/>
+                                        <connections>
+                                            <action selector="singleAnswerButtonPressed:" destination="CYc-WW-ian" eventType="touchUpInside" id="1u3-vH-vNj"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -218,7 +233,10 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xEZ-db-hzJ">
                                         <rect key="frame" x="0.0" y="188" width="288" height="34.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Ответить"/>
+                                        <connections>
+                                            <action selector="multipleAnswerButtonPressed" destination="CYc-WW-ian" eventType="touchUpInside" id="hiP-Tt-cmF"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -241,12 +259,6 @@
                             <constraint firstItem="TvR-GW-XrE" firstAttribute="leading" secondItem="77H-df-yqh" secondAttribute="leading" constant="16" id="pHF-Gh-SWr"/>
                             <constraint firstItem="ySG-2U-4WD" firstAttribute="leading" secondItem="77H-df-yqh" secondAttribute="leading" constant="16" id="s32-cC-DB6"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="vpQ-gx-nlZ"/>
-                                <exclude reference="ufD-Bj-6qX"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Вопрос №" id="NGV-Xd-Dua">
                         <barButtonItem key="rightBarButtonItem" title="Item" id="TGJ-uj-vr1">
@@ -343,7 +355,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="b6q-SO-jnw"/>
+        <segue reference="30y-jz-VhF"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
