@@ -260,13 +260,7 @@
                             <constraint firstItem="ySG-2U-4WD" firstAttribute="leading" secondItem="77H-df-yqh" secondAttribute="leading" constant="16" id="s32-cC-DB6"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Вопрос №" id="NGV-Xd-Dua">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="TGJ-uj-vr1">
-                            <connections>
-                                <segue destination="sh1-Oi-nhe" kind="show" id="b6q-SO-jnw"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Вопрос №" id="NGV-Xd-Dua"/>
                     <connections>
                         <outlet property="multipleStackView" destination="ufD-Bj-6qX" id="bib-DD-FGo"/>
                         <outlet property="questionLabel" destination="ySG-2U-4WD" id="QAk-pj-3CM"/>
@@ -336,6 +330,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="definitionLabel" destination="TbX-Fn-tlN" id="0dM-uA-40D"/>
+                        <outlet property="emojiLabel" destination="1md-H3-SCM" id="fRF-H0-lQN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yde-EK-Ifi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -360,9 +358,6 @@
             <point key="canvasLocation" x="926" y="4"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="30y-jz-VhF"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
